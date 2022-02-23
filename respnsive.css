@@ -1,0 +1,71 @@
+@media(max-width:1300px){
+    /* 2 navbar */
+    .menu-navbar-nav{
+        width: auto;
+    }
+}
+
+@media(max-width:1230px){
+    /* 2 navbar */
+    .nav-item{
+        margin: 0 5px;
+    }
+    .learn-more-btn{
+        padding: 8px 7px;
+    }
+    /* 3 banner */
+
+}
+@media(max-width:1070px){
+    .nav-item .nav-link{
+        font-size: 12px;
+    }
+    .about-title{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991px){
+    .navbar-brand img{
+        width: 180px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .menu-navbar-nav{
+        text-align: center;
+    }
+    .learn-more-btn,.nav-item{
+        margin-bottom: 12px !important;
+    }
+    .learn-more-btn{
+        padding: 12px 30px !important;
+    }
+    .navbar-collapse{
+        background: var(--bg-light-white);
+
+    }
+    /* banner section */
+    .banner-title{
+        
+        font-size:30px;
+        line-height: 2.5rem;
+       
+    }
+    .banner-wrapper .banner-title-text{
+        margin-bottom: 10px;
+    }
+    .banner-wrapper .banner-subtitle{
+        font-size: 14px;
+        line-height: 1rem;
+    }
+    .about-number{
+        margin: 20px auto;
+    }
+    about-title{
+        font-size: 24px;
+    }
+    .project p{
+        margin-bottom: 20px;
+    }
+}
